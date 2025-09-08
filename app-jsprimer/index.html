@@ -5,7 +5,23 @@
     <title>Todo App</title>
   </head>
   <body>
-    <h1>todoapp</h1>
+    <h1>Todoapp</h1>
+    <div class="todoapp">
+      <form id="js-form">
+        <input
+          id="js-form-input"
+          class="new-todo"
+          type="text"
+          placeholder="What to do?"
+          autocomplete="off"
+        />
+      </form>
+      <div id="js-todo-list" class="todo-list">
+      </div>
+      <footer class="footer">
+        <span id="js-todo-count">Todo item: 0</span>
+      </footer>
+    </div>
     <script type="module" src="main.js"></script>
   </body>
 </html>
