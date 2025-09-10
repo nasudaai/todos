@@ -4,3 +4,6 @@ function log() {
 
 
 const func = log()
+const check = log
+
+console.log(check)
